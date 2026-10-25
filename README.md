@@ -3,7 +3,7 @@
 A responsive personal portfolio built with React, Vite, and Tailwind CSS. It
 showcases experience, skills, projects, achievements, and contact details.
 
-**Live site:** [portfolio-kappa-nine-4bxrivv6z4.vercel.app](https://portfolio-kappa-nine-4bxrivv6z4.vercel.app/)
+**Live site:** [https://kishlaytejeswi.vercel.app/](https://kishlaytejeswi.vercel.app/)
 
 ## Features
 
