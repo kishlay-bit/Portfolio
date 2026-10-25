@@ -1,45 +1,72 @@
-# 🚀 Personal Portfolio Website
+# Kishlay Tejeswi — Portfolio
 
-A modern, responsive portfolio website showcasing my projects, skills, and experience. Built with cutting-edge web technologies including HTML, CSS, Tailwind CSS, JavaScript, React (JSX), and Node.js, making it ready for scalable deployments and dynamic content integration.
+A responsive personal portfolio built with React, Vite, and Tailwind CSS. It
+showcases experience, skills, projects, achievements, and contact details.
 
-## 🌟 Demo
+**Live site:** [portfolio-kappa-nine-4bxrivv6z4.vercel.app](https://portfolio-kappa-nine-4bxrivv6z4.vercel.app/)
 
-**Live Demo:** [https://portfolio-kappa-nine-4bxrivv6z4.vercel.app/](https://portfolio-kappa-nine-4bxrivv6z4.vercel.app/)
+## Features
 
-## ✨ Features
+- Responsive hero and About sections
+- Experience section with an image slideshow and LinkedIn post link
+- Skills grouped by development, machine learning, and core computer science
+- Project cards with descriptions, images, and optional demo/source links
+- Achievements list with a photo slideshow
+- Contact information and social profile links
+- Light/dark theme toggle
 
-- ⚡ **Fast and Responsive**: Mobile-first design using Tailwind CSS utility classes  
-- 🛠 **Project Showcase**: Dynamic project gallery with detailed descriptions  
-- 🔒 **Contact Form**: Secure and validated contact form with backend integration  
-- 🌗 **Dark/Light Mode**: Seamless theme switching for enhanced user experience  
-- 🧩 **Reusable Components**: Built with React (JSX) for maintainable, modular code  
-- 🗃 **Backend Ready**: Node.js/Express API structure for dynamic content management  
-- 🌍 **Production Deployments**: Optimized for GitHub Pages, Vercel, and Netlify
+## Tech stack
 
-## 🏗️ Tech Stack
+- React 18 and JavaScript
+- Vite 5
+- Tailwind CSS 4
+- Lucide icons
+- React Router
 
-| Category        | Technologies                                        |
-|-----------------|-----------------------------------------------------|
-| **Frontend**    | HTML5, CSS3, JavaScript (ES6+), React, Tailwind CSS |
-| **Backend**     | Node.js, Express.js                                 |
-| **Database**    | MongoDB (optional)                                  |
-| **Deployment**  | Vercel, Netlify, GitHub Pages                       |
-| **Tools**       | npm/yarn, Git, VS Code                              |
+## Run locally
 
-## 🚀 Getting Started
+### Requirements
 
-### Prerequisites
+- Node.js 18 or newer
+- npm
+- Git
 
-Before running this project, make sure you have the following installed:
+### Install and start
 
-- [Node.js](https://nodejs.org/) (v14.0.0 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
+```bash
+git clone https://github.com/kishlay-bit/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
 
-### Installation
+Vite prints the local development URL in the terminal.
 
-1. **Clone the repository**
-   ```bash
-   git clone (https://github.com/kishlay-bit/Portfolio.git)
-   cd Portfolio
+## Available commands
 
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create the production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Updating portfolio content
+
+- **Hero and profile photo:** `src/components/HeroSection.jsx`; profile image at `public/projects/profile101.png`
+- **About:** `src/components/AboutSection.jsx`
+- **Experience and photos:** `src/components/ExperienceSection.jsx`; slideshow images in `public/experience/`
+- **Skills:** `src/components/SkillsSection.jsx`
+- **Achievements and photos:** `src/components/AchievementsSection.jsx`; slideshow images in `public/achievement/`
+- **Projects:** `src/components/ProjectsSection.jsx`; project images in `public/projects/`
+- **Contact and social links:** `src/components/ContactSection.jsx`
+
+Images in `public/` are served from the site root. For example,
+`public/experience/image1.png` is referenced in the app as
+`/experience/image1.png`.
+
+## Deployment
+
+The project can be deployed as a static Vite site on Vercel or another static
+hosting provider. Use `npm run build` as the build command and `dist` as the
+output directory. No backend or database is required.

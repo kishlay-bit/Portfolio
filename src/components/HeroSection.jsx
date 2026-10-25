@@ -24,8 +24,7 @@ export const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3">
-              I am a Computer Science undergraduate passionate about exploring Web Development,
-               Data Structures, and emerging technologies like AI and Machine Learning.<br></br> Continuously learning and building projects to grow my skills and knowledge.
+              I am a Computer Science undergraduate passionate about Software Engineering, Artificial Intelligence, and Machine Learning.<br></br> I enjoy building scalable applications, developing intelligent systems, and solving real-world problems through code. Continuously learning, experimenting, and building projects to strengthen my skills in SWE and AI/ML.
             </p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
@@ -39,7 +38,7 @@ export const HeroSection = () => {
           {/* Image Section */}
           <div className="flex-shrink-0 w-50 md:w-70 lg:w-80 opacity-0 animate-fade-in-delay-3">
             <img
-              src="/projects/profile101.png" 
+              src="/projects/profile101.png"
               alt="Kishlay Tejeswi"
               className="rounded-xl shadow-lg mx-auto md:mx-0"
             />
